@@ -1,0 +1,17 @@
+[project]
+name = "chroma"
+version = "0.1.0"
+description = "A MCP server project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.1.2",]
+[[project.authors]]
+name = "privetin"
+email = "81558906+privetin@users.noreply.github.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+chroma = "chroma:main"
