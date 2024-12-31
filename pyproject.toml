@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A MCP server project"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [ "mcp>=1.1.2", "chromadb>=0.4.22",]
+dependencies = [ "mcp>=1.1.2", "chromadb>=0.4.22", "sentence-transformers>=2.2.2"]
 [[project.authors]]
 name = "privetin"
 email = "81558906+privetin@users.noreply.github.com"
