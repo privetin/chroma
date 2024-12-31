@@ -8,3 +8,30 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Chroma specific
+.chroma/
+chroma.sqlite3
+chroma.log
+index_data/
+
+# Environment files
+.env
+.env.*
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# System files
+.DS_Store
+Thumbs.db
