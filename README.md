@@ -1,4 +1,5 @@
 # Chroma MCP Server
+[![smithery badge](https://smithery.ai/badge/chroma)](https://smithery.ai/server/chroma)
 
 A Model Context Protocol (MCP) server implementation that provides vector database capabilities through Chroma. This server enables semantic document search, metadata filtering, and document management with persistent storage.
 
@@ -64,6 +65,14 @@ The server implements CRUD operations and search functionality:
 - **Retry Logic**: Automatic retries for transient failures
 
 ## Installation
+
+### Installing via Smithery
+
+To install Chroma for Claude Desktop automatically via [Smithery](https://smithery.ai/server/chroma):
+
+```bash
+npx -y @smithery/cli install chroma --client claude
+```
 
 1. Install dependencies:
 ```bash
